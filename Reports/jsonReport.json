@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-27T03:06:58.077Z",
+        "line": 12,
+        "name": "API request by latitude and longitude should return closest office \"forecast property\" location",
+        "description": "",
+        "id": "public-weather-api;api-request-by-latitude-and-longitude-should-return-closest-office-\"forecast-property\"-location;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1389193300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send GET request with given \"39.952583\" and \"-75.165222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"39.952583\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"-75.165222\"",
+                  "offset": 46
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_send_get_request_with_given_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28983700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_should_get_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39977100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response body should contain \"PHI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PHI\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_body_should_contain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19988700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response time should be not more than \"1000\" ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_time_should_be_not_more_than(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-27T03:06:59.618Z",
+        "line": 13,
+        "name": "API request by latitude and longitude should return closest office \"forecast property\" location",
+        "description": "",
+        "id": "public-weather-api;api-request-by-latitude-and-longitude-should-return-closest-office-\"forecast-property\"-location;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 104057200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send GET request with given \"47.751076\" and \"-120.740135\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"47.751076\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"-120.740135\"",
+                  "offset": 46
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_send_get_request_with_given_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_should_get_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response body should contain \"OTX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OTX\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_body_should_contain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response time should be not more than \"1000\" ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_time_should_be_not_more_than(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-27T03:06:59.734Z",
+        "line": 14,
+        "name": "API request by latitude and longitude should return closest office \"forecast property\" location",
+        "description": "",
+        "id": "public-weather-api;api-request-by-latitude-and-longitude-should-return-closest-office-\"forecast-property\"-location;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97262900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send GET request with given \"26.12231\" and \"-80.14338\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26.12231\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"-80.14338\"",
+                  "offset": 45
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_send_get_request_with_given_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_should_get_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response body should contain \"MFL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MFL\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_body_should_contain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response time should be not more than \"1000\" ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_time_should_be_not_more_than(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-27T03:06:59.845Z",
+        "line": 15,
+        "name": "API request by latitude and longitude should return closest office \"forecast property\" location",
+        "description": "",
+        "id": "public-weather-api;api-request-by-latitude-and-longitude-should-return-closest-office-\"forecast-property\"-location;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 79526100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send GET request with given \"33.448376\" and \"-112.074036\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"33.448376\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"-112.074036\"",
+                  "offset": 46
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_send_get_request_with_given_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get \"200\" status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.i_should_get_status_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response body should contain \"PSR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PSR\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_body_should_contain(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response time should be not more than \"1000\" ms",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 38
+                }
+              ],
+              "location": "step_definitions.PublicWeatherAPI.response_time_should_be_not_more_than(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "public weather API",
+    "description": "",
+    "id": "public-weather-api",
+    "keyword": "Feature",
+    "uri": "file:features/test.feature",
+    "tags": []
+  }
+]
